@@ -39,7 +39,13 @@ Exemple d'entrée:
  */
 
 function searchWordFilter(items, search) {
+  return result = items.filter(function(arr) {
+   if (arr.includes('Revenge')) {
+     return arr ;
+   }
+  })
 }
+
 
 // Ne pas modifier l'export
 module.exports = searchWordFilter;

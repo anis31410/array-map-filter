@@ -23,7 +23,12 @@ Sortie attendue:
 
  */
 
-function keepStarks(names) {
+function keepStarks(names){
+  return result = names.filter(function(letter) {
+    if (letter.endsWith('Stark') === true) {
+      return letter ;
+    }
+  });
 }
 
 // Ne pas modifier l'export
